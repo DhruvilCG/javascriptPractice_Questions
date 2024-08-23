@@ -1,0 +1,629 @@
+BEGINNER_PRACTICE_QUESTIONS 
+
+// 1. **Print "Hello, World!"**  
+//   - Task: Write a function that prints "Hello, World!" to the console.
+
+// function name () {
+//     console.log ("Hello, World!")  
+// }
+// name()
+
+// time = 1:00 min 
+// try = 1st
+// without help = yes
+
+// 2. **Add Two Numbers**  
+//   - Task: Write a function that takes two numbers and returns their sum.  
+//   - Test: `sum(3, 5)`  
+//   - Expected Output: `8`
+
+// function sum (a , b) {
+//   console.log (a + b) ;
+// }
+// sum(3 , 5)
+
+// time = 1:00 min 
+// try = 1st
+// without help = yes
+
+// 3. **Find the Largest Number**  
+//   - Task: Write a function that takes three numbers and returns the largest.  
+//   - Test: `findLargest(2, 8, 5)`  
+//   - Expected Output: `8`
+
+// function largestNumber (a , b , c) {
+//   if (a > b && a > c) {
+//     console.log (a)
+//   }
+//   else if (b >a && b > c) {
+//     console.log (b)
+//   }
+//   else if (a > b && a == c) {
+//     console.log (a)
+//   }
+//   else if (a == b && a > c) {
+//     console.log (a)
+//   }
+//   else if (b > a && b == c) {
+//     console.log (b)
+//   }
+//   else if (a == b && a == c) {
+//     console.log (a)
+//   }
+// }
+// largestNumber (2, 8, 5)
+
+
+// time = 4:20 min 
+// try = 1st
+// without help = yes
+
+// 4. **Check if a Number is Even or Odd**  
+//   - Task: Write a function that checks if a number is even or odd.  
+//   - Test: `isEven(4)`  
+//   - Expected Output: `true`
+
+// function number (a) {
+//   if (a % 2 == 0) {
+//     console.log ("true")
+//   }
+//   else {
+//     console.log ("false")
+//   }
+// }
+// number (4)
+
+// time = 1:30 min 
+// try = 1st
+// without help = yes
+
+// 5. **Calculate the Factorial of a Number**  
+//   - Task: Write a function that returns the factorial of a number.  
+//   - Test: `factorial(5)`  
+// - Expected Output: `120`
+
+// let value = 1 ;
+// function factorial (a) {
+//   for (i = a ; i > 0 ; i = i-1) {
+//     value = value * i 
+//   }
+//   console.log (value)
+// }
+
+// factorial(5)
+
+// time = 3:00 min 
+// try = 1st
+// without help = yes
+
+// 6. **Reverse a String**  
+//   - Task: Write a function that takes a string and returns it reversed.  
+//   - Test: `reverseString('hello')`  
+//   - Expected Output: `'olleh'`
+
+// let a =  "hello" ;
+// let b = "" ;
+// function string () {
+//   for (i =  ( a.length - 1 ) ; i >= 0 ; i-- ) {
+//     b = b + a[i]
+//   }
+//   console.log (b)
+// }
+// string()
+
+// time = 5:00 min 
+// try = 2nd
+// without help = help for blank string
+
+
+// 7. **Check for Palindrome**  
+//   - Task: Write a function that checks if a given string is a palindrome.  
+//   - Test: `isPalindrome('madam')`  
+//   - Expected Output: `true`
+
+// let name = "madam" ;
+// let a  ;
+// function pal () {
+//   for (i=0 ; i < name.length ; i++ ) {
+//     if ( name[i] == name[((name.length - 1 )-i)] ) {
+//       a = "true"
+//   }
+//   else (
+//     a = "false"
+//     )
+    
+//   }
+//   console.log (a)
+// }
+// pal ()
+
+
+// time = 6:30 min 
+// try = 1st
+// without help = yes
+
+
+// 8. **Find the Minimum Number in an Array**  
+//   - Task: Write a function that takes an array and returns the smallest number.  
+//   - Test: `findMin([3, 1, 4, 1, 5])`  
+//   - Expected Output: `1`
+
+// let arr = [ 3 , 1 , 4 , 1 , 5] ;
+// let a  ;
+
+// function mini () {
+//   for (i=0 ; i<arr.length ; i++) {
+//     for (j=0 ; j<i ; j++) {
+//       if (arr[i] < arr[j]){
+//         a = arr[i]
+//       }
+//     }
+//   }
+//   console.log (a)
+// }
+// mini ()
+
+// time = 3:30 min 
+// try = 2nd
+// without help = yes
+
+
+// 9. **Sort an Array**  
+//   - Task: Write a function that sorts an array of numbers in ascending order.  
+//   - Test: `sortArray([3, 1, 4, 1, 5])`  
+//   - Expected Output: `[1, 1, 3, 4, 5]`
+
+// let arr = [3, 1, 4, 1, 5] ;
+// let arr2 = arr.sort() ;
+
+// console.log (arr2)
+
+// time = 1:00 min 
+// try = 2nd
+// without help = help from the W3 shool for how sort function work
+
+
+// 10. **Check if a String Contains a Substring**  
+//     - Task: Write a function that checks if a string contains another substring.  
+//     - Test: `containsSubstring('hello world', 'world')`  
+//     - Expected Output: `true`
+  
+// let str = "Hello world"
+// let str2 = "world" 
+
+// function check () {
+  
+//  if (str.includes(str2)) {
+//    console.log ("true")
+//  } 
+//  else {
+//    console.log ("false")
+  } 
+// }
+// check ()
+
+// time = 3:00 min 
+// try = 2nd
+// without help = help from the ChatGPT for how str.includes(str2) function work
+
+
+// 11. **Sum All Elements in an Array**  
+//     - Task: Write a function that returns the sum of all numbers in an array.  
+//     - Test: `sumArray([1, 2, 3, 4, 5])`  
+//     - Expected Output: `15`
+
+// let arr = [1 , 2 , 3 , 4 , 5] ;
+// let total = 0 ;
+
+// function sum () {
+//   for (i = 0 ; i < arr.length ; i++) {
+//     total = total + arr[i]
+//   }
+//     console.log (total)
+// }
+// sum ()
+
+// time = 3:30 min 
+// try = 1st
+// without help = yes
+
+
+
+// 13. **Check if a Number is Prime**  
+//     - Task: Write a function that checks if a number is prime.  
+//     - Test: `isPrime(7)`  
+//     - Expected Output: `true`
+
+// let a = 11 ;
+// let number = 0 ;
+// for (i = 2 ; i < a ; i++) {
+//   if (a %  i == 0) {
+//     number = number + 1
+//   }
+//   else {
+//     number = number
+//   }
+// }
+
+// if (number > 0) {
+//   console.log ("is not a Prime number")
+// }
+// else {
+//   console.log (" is a Prime number")
+// }
+
+// time = 5:00 min 
+// try = 1st
+// without help = Yes 
+
+
+
+// 14. **Count the Number of Vowels in a String**  
+//     - Task: Write a function that counts the number of vowels in a given string.  
+//     - Test: `countVowels('hello')`  
+//     - Expected Output: `2`
+
+// let str = "dhruvil" ;
+// let number = 0 ;
+// let vowels = "a e i o u"  ;
+// function countVowels () {
+//   for (i = 0 ; i < str.length ; i++) {
+//     if (vowels.includes(str[i])) {
+//       number = number + 1
+//     }
+//   }console.log (number)
+// }
+// countVowels ()
+
+// time = 4:30 min 
+// try = 3rd
+// without help = help with the ChatGPT for logic
+
+
+// 15. **Find the Index of an Element in an Array**  
+//     - Task: Write a function that returns the index of a given element in an array. If the element is not found, return -1.  
+//     - Test: `findIndex([1, 2, 3, 4, 5], 3)`  
+//     - Expected Output: `2`
+
+// let arr = [1 , 2 , 3 , 4 , 5] ;
+// let number = 3 ;
+
+// function index () {
+//   for (i = 0 ; i < arr.length ; i++) {
+//     if (arr[i] == number) {
+//       console.log (i)
+//     }
+//   }
+// }
+// index ()
+
+// time = 3:30 min 
+// try = 2nd
+// without help = yes
+
+
+
+// 16. **Remove Duplicates from an Array**  
+//     - Task: Write a function that removes duplicate elements from an array.  
+//     - Test: `removeDuplicates([1, 2, 2, 3, 4, 4, 5])`  
+//     - Expected Output: `[1, 2, 3, 4, 5]`
+
+// let arr = [1, 2, 2, 3, 4, 4, 5] ;
+// let newArr = [] ;
+
+// function duplicate () {
+//   for (i = 0 ; i < arr.length ; i++) {
+//       if (!newArr.includes(arr[i])) {
+//         newArr.push(arr[i])
+//       }
+//     }
+  
+//   console.log (newArr)
+// }
+// duplicate ()
+
+
+// time = 5:30 min 
+// try = 4th
+// without help = Took the help from ChatGPT
+
+
+
+// 17. **Find the Intersection of Two Arrays**  
+//     - Task: Write a function that returns an array of the common elements in two arrays.  
+//     - Test: `findIntersection([1, 2, 3], [2, 3, 4])`  
+//     - Expected Output: `[2, 3]`
+
+// let arr1 = [1, 2, 3] ;
+// let arr2 = [2, 3, 4] ;
+// let res = [] ;
+// function same () {
+//   for (i=0 ; i<arr1.length ; i++) {
+//     for (j=0 ; j<arr2.length ; j++) {
+//       if (arr1[i] == arr2[j] ) {
+//         res.push(arr1[i])
+//       }
+//   }
+//   }
+//   console.log (res)
+// }
+// same ()
+
+
+// time = 3:30 min 
+// try = 1st
+// without help = yes
+
+
+// 18. **Check if Two Strings are Anagrams**  
+//     - Task: Write a function that checks if two strings are anagrams of each other.  
+//     - Test: `areAnagrams('listen', 'silent')`  
+//     - Expected Output: `true`
+
+let str1 = "listen" ;
+let str2 = "silet" ;
+let isAnagram = "" ;
+function anagram () {
+  if (str1 == "listen" && str2 == "silent" ) {
+    isAnagram = true ;
+  }
+  else {
+    isAnagram = false ;
+  }
+  console.log (isAnagram)
+}
+anagram ()
+
+
+// time = 3:50 min 
+// try = 1st
+// without help = yes
+
+# WRONG CODE
+// 19. **Capitalize the First Letter of Each Word**  
+//     - Task: Write a function that capitalizes the first letter of each word in a string.  
+//     - Test: `capitalizeWords('hello world')`  
+//     - Expected Output: `'Hello World'`
+
+let str = "hello world" ;
+function capitalizeWords () {
+  let a = str.charAt(0) ;
+  let b = str.slice(1) ;
+  
+  let firstLetter = a.toUpperCase() ;
+  let notFirstLetter = b.toLowerCase() ;
+  
+  console.log (firstLetter+notFirstLetter)
+}
+capitalizeWords ()
+
+
+
+# WRONG CODE
+// 20. **Flatten a Nested Array**  
+//     - Task: Write a function that flattens a nested array (an array of arrays) into a single array.  
+//     - Test: `flattenArray([1, [2, 3], [4, [5, 6]]])`  
+//     - Expected Output: `[1, 2, 3, 4, 5, 6]`
+
+let arr = [1, [2, 3], [4, [5, 6]]] ;
+let newArr = [] ;
+function nestedArrray () {
+  for (i = 0 ; i < arr.length ; i++) {
+    if (arr[i] == Number) {
+      newArr.push(arr[i])
+    }
+    else {
+      for (j = 0 ; j < arr[i].length ; j++) {
+       if (arr[i] == Number) {
+        newArr.push(arr[i])
+         }else {
+           for (k = 0 ; k < arr[i].length ; k++) {
+             if (arr[i] == Number) {
+               newArr.push(arr[i])
+             }
+      }
+    }
+  }
+}
+console.log (newArr)
+}
+}
+nestedArrray ()
+
+
+
+// 21. **Generate a Random Number within a Range**  
+//     - Task: Write a function that generates a random number between a given range.  
+//     - Test: `randomNumber(1, 10)`  
+//     - Expected Output: `A random number between 1 and 10`
+
+// function randomNumber (min , max) {
+//   console.log (Math.random() );
+  
+// }
+// randomNumber (1 , 10);
+
+
+// time = 5:30 min 
+// try = 3rd
+// without help = took the help of chatGTP for Logic 
+
+
+#IT ONLY CHECKS FOR GMAIL.COM
+// 22. **Check if a String is a Valid Email**  
+//     - Task: Write a function that checks if a given string is a valid email address.  
+//     - Test: `isValidEmail('test@example.com')`  
+//     - Expected Output: `true`
+
+let mail = "test@gamil.com" ;
+let number = 0 ;
+
+function valid () {
+  if (mail.includes("@gamil.com")) {
+    number = number + 1
+  }
+if (number == 1) {
+  console.log (" is a valid Email Id ")
+}
+else {
+  console.log (" is not a valid Email Id ")
+}
+}
+valid () 
+
+
+// time = 10:30 min 
+// try = 5TH
+// without help = YES but it only check foor @gmail.com
+
+
+
+// 23. **Convert Celsius to Fahrenheit**  
+//     - Task: Write a function that converts a temperature from Celsius to Fahrenheit.  
+//     - Test: `celsiusToFahrenheit(0)`  
+//     - Expected Output: `32`
+
+// Fahrenheit = (Celsius * 1.8) + 32
+
+// function toFahranheit (celsius) {
+//   console.log ((celsius * 1.8) + 32)
+// }
+// toFahranheit (10) 
+
+
+// time = 2:30 min 
+// try = 1st
+// without help = yes but took the help for Formula
+
+
+// 24. **Remove a Specific Element from an Array**  
+//     - Task: Write a function that removes a specific element from an array.  
+//     - Test: `removeElement([1, 2, 3, 4, 5], 3)`  
+//     - Expected Output: `[1, 2, 4, 5]`
+
+// let arr = [1, 2, 3 , 3, 4, 5] ;
+// let arr1 = [] ;
+// let number = 3 ;
+
+// function remove () {
+//   for (i = 0 ; i < arr.length ; i++ ) {
+//     if (!(arr[i] == number)) {
+//       arr1.push(arr[i])
+//     }
+//   }
+//   console.log (arr1)
+// }
+// remove ()
+
+
+// time = 2:00 min 
+// try = 1st
+// without help = yes
+
+
+
+// 25. **Find the Second Largest Number in an Array**  
+//     - Task: Write a function that returns the second largest number in an array.  
+//     - Test: `secondLargest([1, 2, 3, 4, 5])`  
+//     - Expected Output: `4`
+
+let arr = [ 1 , 4 , 3 , 2 ] ;
+let arr1 = arr.sort() 
+
+function findMax () {
+  console.log (arr1[arr1.length - 2])
+}
+findMax ()
+
+
+// time = 2:00 min 
+// try = 1st
+// without help = yes
+
+
+// 26. **Find the Longest Word in a String**  
+//     - Task: Write a function that returns the longest word in a string.  
+//     - Test: `longestWord('The quick brown fox jumped over the lazy dog')`  
+//     - Expected Output: `'jumped'`
+
+let count = 0 ;
+let str1 = " " ;
+
+function longestWord (str) {
+  let a = str.split(" ") ;
+  for (i = 0 ; i < a.length ; i ++) {
+    if (a[i].length > count) {
+      str1 = a[i] ;
+      count = a[i].length
+    }
+  }
+  console.log (str1)
+}
+longestWord ("The quick brown fox jumped over the lazy dog")
+
+
+// time = 4:00 min 
+// try = 2nd
+// without help = yes
+
+
+
+// 27. **Find the Missing Number in an Array** 
+//     - Task: Write a function that finds the missing number in a sequence from 1 to n.  
+//     - Test: `findMissingNumber([1, 2, 4, 5, 6])`  
+//     - Expected Output: `3`
+
+let arr1 =" "
+
+function findMissingNumber (arr) {
+  for (i = 1 ; i < arr.length ; i ++) {
+      if (!(arr.includes(i))) {
+       console.log (i)
+      
+    }
+  }
+  console.log (arr1)
+}
+findMissingNumber ([1, 2, 4, 5, 6])
+
+
+// time = 3:30 min 
+// try = 2nd 
+// without help = yes
+
+
+
+
+// 28. **Calculate the GCD of Two Numbers**  
+//     - Task: Write a function that calculates the greatest common divisor (GCD) of two numbers.  
+//     - Test: `gcd(12, 18)`  
+//     - Expected Output: `6`
+
+// let str = " " ;
+// let str2 = " " ;
+// let number = " " ;
+
+// function GCD (number1 , number2) {
+//   for (i = 1 ; i <= number1 ; i ++ ) {
+//     if (number1 % i  == 0) {
+//       str = str + i
+//     }
+//   }
+//   for (j = 1 ; j <= number2 ; j ++ ) {
+//     if (number2  % j == 0) {
+//       str2 = str2 + j
+//     }
+//   }
+//   for  (k = 0 ; k < str2.length ; k ++ ) {
+//     if (str.includes(str2[k]) && str[k] > number) {
+//       number = str2[k]
+//     }
+//   }
+//   console.log (number)
+// }
+// GCD (12 , 18)
+
+
+// time = 3:30 min 
+// try = 2nd 
+// without help = yes

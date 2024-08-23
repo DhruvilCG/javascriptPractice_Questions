@@ -1,0 +1,256 @@
+String Questions
+
+
+// 1. **Reverse a String**
+//   - Task: Write a function that reverses a given string.
+//   - Test:
+//     ```javascript
+//     console.log(reverseString("hello"));
+//     ```
+//   - Expected Output: `"olleh"`
+
+// let newStr = " "
+// function reverseString (str) {
+//   for (i = (str.length-1) ; i >= 0 ; i -- ) {
+//     newStr = newStr + str[i]    
+//   }
+//   console.log (newStr)
+// }
+// reverseString ("hello")
+
+
+// time = 2:00 min 
+// try = 1st 
+// without help = yes
+
+
+
+
+// 2. **Check if a String is a Palindrome**
+//   - Task: Write a function that checks if a given string is a palindrome (reads the same forward and backward).
+//   - Test:
+//     ```javascript
+//     console.log(isPalindrome("racecar"));
+//     console.log(isPalindrome("hello"));
+//     ```
+//   - Expected Output:
+//     ```javascript
+//       true
+//       false
+//       ```
+
+// let count = 0 ;
+// let count1 = 0 ;
+
+// function isPalindrome (str1 , str2) {
+//   for (i = 0 ; i < str1.length ; i ++) {
+//     if (str1[(str1.length - i)] == str1[i]) {
+//       count = count  + 1
+//     }
+//     else {
+//       count = count
+//     }
+//     if (str2[(str2.length - i)] == str2[i]) {
+//       count1 = count1  + 1
+//     }
+//     else {
+//       count1 = count1
+//     }
+//   }
+// }
+// isPalindrome ("racecar" , "hello" )
+
+// if (count > 0 ) {
+//   console.log (false) 
+// }
+// else {
+//   console.log (true)
+// }
+
+// if (count1 > 0 ) {
+//   console.log (false) 
+// }
+// else {
+//   console.log (true)
+// }
+
+
+// time = 2:20 min 
+// try = 1st 
+// without help = yes
+
+
+
+// 3. **Count the Number of Vowels in a String**
+//   - Task: Write a function that counts the number of vowels (`a, e, i, o, u`) in a given string.
+//   - Test:
+//     ```javascript
+//     console.log(countVowels("hello world"));
+//     ```
+//   - Expected Output: `3`
+
+// let count = 0 ;
+// function countVowels (str) {
+//   for (i = 0 ; i < str.length ; i ++) {
+//     if (str[i] == "a" || str[i] == "e" || str[i] == "i" || str[i] == "o" || str[i] == "u" ) {
+//       count = count + 1
+//     }
+//   }
+//   console.log (count)
+// }
+// countVowels ("hello world")
+
+
+// time = 2:00 min 
+// try = 1st 
+// without help = yes
+
+
+
+
+
+// 5. **Count the Number of Words in a String**
+//   - Task: Write a function that counts the number of words in a string. Assume words are separated by spaces.
+//   - Test:
+//     ```javascript
+//     console.log(countWords("This is a test string"));
+//     ```
+//   - Expected Output: `5`
+
+// function countWords (str) {
+//   let a = str.split(" ")
+//   console.log (a.length)
+// }
+// countWords ("This is a test string")
+
+
+// time = 1:00 min 
+// try = 1st 
+// without help = yes
+
+
+
+// 6. **Check if Two Strings are Anagrams**
+//   - Task: Write a function that checks if two strings are anagrams (contain the same characters in different orders).
+//   - Test:
+//     ```javascript
+//     console.log(areAnagrams("listen", "silent"));
+//     console.log(areAnagrams("hello", "world"));
+//     ```
+//   - Expected Output:
+//     ```javascript
+//     true
+//     false
+//     ```
+// let number = 0 ;
+
+// function areAnagrams (str1 , str2) {
+//   for (i = 0 ; i < str1.length ; i ++) {
+//     if (!(str1.includes(str2[i]))) {
+//       number = number + 1
+//     }
+//     else {
+//       number = number
+//     }
+//   }
+// }
+// areAnagrams ("hello", "world")
+
+// if (number > 0) {
+//   console.log (false)
+// }
+// else {
+//   console.log (true)
+// }
+
+
+// time = 2:30 min 
+// try = 1st 
+// without help = yes
+
+
+ 
+// 7. **Replace All Spaces in a String with Hyphens**
+//   - Task: Write a function that replaces all spaces in a string with hyphens (`-`).
+//   - Test:
+//     ```javascript
+//     console.log(replaceSpaces("replaceSpaces"));
+//     ```
+//   - Expected Output: `"Hello-World"`
+
+
+
+// function replaceSpaces (str) {
+//   let str1 = " "
+//   for (i = 0 ; i < str.length ; i ++) {
+//     if (str[i] == " " ) {
+//     str1 = str1 + "-"
+//     }
+//     else {
+//       str1 = str1 + str[i]
+//     }
+//   }
+//   console.log (str1)
+// }
+// replaceSpaces ("Hello World")
+
+
+// time = 3:30 min 
+// try = 2nd 
+// without help = yes 
+
+
+
+// 8. **Convert a String to Title Case**
+//   - Task: Write a function that converts a string to title case (capitalizes the first letter of each word).
+//   - Test:
+//     ```javascript
+//     console.log(toTitleCase("this is a test string"));
+//     ```
+//   - Expected Output: `"This Is A Test String"`
+
+// function toTitleCase (str) {
+//   let newStr = " " ;
+//   for (i = 0 ; i < str.length ; i ++) {
+//     if (str[i] == " " ) {
+//       newStr = newStr + (str[i]).toUpperCase()
+//     }
+//     else {
+//       newStr = newStr + str[i]
+//     }
+//   }
+//   console.log (newStr)
+// }
+// toTitleCase ("This Is A Test String")
+
+
+// time = 3:30 min 
+// try = 1st 
+// without help = yes 
+
+
+
+// 10. **Remove Duplicates Characters from a String**
+//     - Task: Write a function that removes duplicate characters from a string.
+//     - Test:
+//       ```javascript
+//       console.log(removeDuplicates("programming"));
+//       ```
+//     - Expected Output: `"progamin"`
+
+// function removeDuplicates (str) {
+//   let a = new Set(str) 
+//   let b = ""
+//   let k = ""
+//   for (i = 0 ; i < str.length ; i++) {
+//     k = [...a]
+//     b = k.join("")
+//   }
+//   console.log (b)
+// }
+// removeDuplicates ("programming")
+
+
+// time = 3:30 min 
+// try = 2nd 
+// without help = no with the help of set function how it works

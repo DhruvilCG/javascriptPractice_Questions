@@ -1,0 +1,67 @@
+OBJECT_PRACTICE_QUESTIONS 
+
+
+// 1. **Create a Simple Object**
+//    - Task: Create an object representing a person with properties `name`, `age`, and `city`.
+//    - Test:
+//      ```javascript
+//      const person = createPerson("John", 25, "New York");
+//      console.log(person);
+//      ```
+//    - Expected Output: `{ name: 'John', age: 25, city: 'New York' }`
+
+// let arr = {
+//     name: "Dhruvil" ,
+//     age: 19 ,
+//     city: "Mehsana"
+// }
+
+// console.log (arr)
+
+// time  = 1.40 min
+// Try = 1st
+// without help = yes
+
+// 2. **Access Object Properties**
+//   - Task: Write a function that returns the value of a given property from an object.
+//   - Test:
+//     ```javascript
+//     const obj = { name: 'Alice', age: 30 };
+//     console.log(getProperty(obj, 'name'));
+//     ```
+//   - Expected Output: `'Alice'`
+
+// let obj = {
+//   name : "Dhruvil" , 
+//   ahe : 19
+// }  
+
+// console.log (obj.name)
+
+// time  = 1.25 min
+// Try = 1st
+// without help = yes
+
+// 3. **Add a New Property to an Object**
+//   - Task: Write a function that adds a new property to an object.
+//   - Test:
+//     ```javascript
+    // const car = { brand: 'Toyota', model: 'Corolla' };
+    // addProperty(car, 'year', 2020);
+    // console.log(car);
+//     ```
+//   - Expected Output: `{ brand: 'Toyota', model: 'Corolla', year: 2020 }`
+
+// let car = {
+//   brand : "Toyota" ,
+//   model : "Corolla"
+// } ;
+
+// car.push('year', 2020)
+
+// console.log (car)
+
+// time  = 5:10 min
+// Try = --(ERROR)
+// without help = yes
+
